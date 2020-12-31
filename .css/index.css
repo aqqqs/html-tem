@@ -1,15 +1,3 @@
 .body {
 	background: #ddd011;
 }
-.header {
-	margin: auto;
-	height: 100px;
-	width: 100%;
-	background: #690815;
-}
-.footer {
-	margin: none;
-	height: 100px;
-	width: 100%;
-	background: #690815;
-}

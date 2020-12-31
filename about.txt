@@ -1,2 +1,17 @@
 Созданная папка для типовых шаблонов и подсказок, которые могу пригодиться для ежедневнного тестирования-разработки, а искать в поисковике слишком долго.
 Впервую очередь для личного использования автором.
+
+auto close tag
+auto rename tag
+babel javascript
+bem helper
+bracket pair colorizer
+css peek
+debugger java
+ecsstractor for vscode
+es7 react/redux/graphiql/react-native
+gitlens - git supercharged
+indent-rainbow
+prettier
+emmet
+javascript and typescript

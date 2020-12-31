@@ -1,23 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Диалоговое окно</title>
+	<link rel="stylesheet" href="../.css/menu.css">
 	<link rel="stylesheet" href="../.css/dialog.css">
 </head>
-<body class="body">
-	<a href="menu.html">Меню</a>
+<body id="body">
+	<div class="burger-menu">
+		<input id="menu__toggle" type="checkbox" />
+		<label class="menu__btn" for="menu__toggle">
+			<span></span>
+		</label>
+		<ul class="menu__box">
+			<li><a class="menu__item" href="login.html">Войти</a></li>
+			<li><a class="menu__item" href="index.html">Главная</a></li>
+			<li><a class="menu__item" href="profile.html">Профиль</a></li>
+			<li><a class="menu__item" href="dialog.html">Диалог</a></li>
+		</ul>
+		</div>
+		<div id="app"></div>
+	</div>
+	<header class="header">
+		<div class="header-inner"></div>
+	</header>
 	<div class="container">
 		<div class="">
-			<input type="search" name="q" class="search"">
+			<input type="search" name="q" class="search">
+			<div class="reset"></div>
 		</div>
-		<textarea name="" cols="30" rows="10" class="textarea"></textarea>
+
+		<textarea name="" cols="30" rows="10" class="textarea">
+		</textarea>
 		<div class="wrapper">
-			<button class="btn">Фото</button>
-			<button class="btn">Видео</button>
-			<button class="btn">Отправить</button>
+			<button class="photo">Фото</button>
+			<button class="video">Видео</button>
+			<button class="submit">Отправить</button>
 		</div>
 	</div>
+	<script src="../.js/main.js">  </script>
 </body>
 </html>

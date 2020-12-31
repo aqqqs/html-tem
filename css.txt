@@ -1,0 +1,119 @@
+# - индификатор
+. - селектор
+* - универсальный селектор
+, - групирование селекторов для одного и того же стиля
+  - (пробел) вложенные и контекстные селекторы
+> - селекторы потомки
++ - смежный (следуюющий) селектор
+~ - братские селекторы
+::after - создает псевдоэлемент после содержимого элемента
+::before - создает всевдоэлемент до содержимого элемента
+::first-letter - задает стиль первой буквы
+::first-line - задает стиль первой строки
+::placeholder - определяет стиль атрибута placeholder
+::selection - принимает стиль выделенного аользователем, фрагмаента текста
+:hover - стиль элемента при наведение на него курсора
+:link - непосещенная ссылка 
+:visited - посещенная ссылка
+:active -активная ссылка
+:focus - определяет стиль элемента, когда он получает фокус (в связке с input)
+/**/ - комментарий
+
+border - рамка
+	none
+	dotted
+	dashed
+	solid -
+	double
+	groove
+	ridge
+	inset
+	outset
+
+position - позиционирование селектора относительно окна браузера или другого элемента страницы
+	absolute
+	fixed
+	relative
+	static
+	inherit
+
+display - многофункциональное свойство
+	flex
+		flex-direction
+			row
+			row-reverse
+			column
+			column-reverse
+		order
+		flex-grow
+		flex-shrink
+		flex-basis
+		flex-flow
+		flex-wrap
+			nowrap
+			wrap
+			wrap-reverse
+		justify-content
+			flex-start
+			flex-end
+			start
+			end
+			left
+			right
+			center
+			space-between
+			space-around
+			space-evenly
+		align-item
+			stretch
+			flex-start / start / self-start
+			flex-end / end / self-end
+			center
+			baseline
+		align-content
+			normal
+			flex-start / start
+			flex-end / end
+			center
+			space-between
+			space-around
+			space-evenly
+			stretch
+		align-self
+grid
+float - позволяет определить по какой стороне будет выравниваться селектор
+	
+margin - отступ между блоками
+	0 auto - выравнивание по центру
+padding - отсутп в блоке
+
+height - высота селектора
+width - ширина селектора
+
+top - выравнивание по вверху
+bottom - выравнивание по низу
+left
+right
+
+font-family
+font-size
+font-weight
+text-decoration
+list-style
+text-align
+
+z-index - задает z-ось для элементов с позицией absolute, fixed, relative
+
+opacity - прозрачность
+cursor - устанавливает форму курсора
+visibility
+color - цвет тескта элемента
+background - цвет фона
+
+transform - трансформирует элемент
+
+content - вставляет содержимое в псевдоэлементы ::after и ::before
+box-shadow
+@media () {} - медиа запрос, всегда размещается снизу
+	() - запрос размера
+	{} - тело изменений

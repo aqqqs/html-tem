@@ -1,56 +1,83 @@
-.body {
-	background: blue;
+#body {
+	background: rgb(17, 121, 121);
 }
 .container {
-	/*overflow: hidden;*/
+	display: flex;
 	height: 1000px;
 	width: 600px;
 	margin-left: 300px;
 	text-transform: lowercase;
 	background: #ddd011;
 }
+
+.search, .textarea, .wrapper {
+	font-family: Trebuchet;
+	font-size: 20px;
+	font-stretch: condensed;
+	font-style: normal;
+}
+
 .search {
-	background: #e20c29
+	border: none;
+	height: 35px;
+	width: 600px;
+	background: #bd1e33;
 }
 .textarea {
-	overflow: hidden;
-	display: flexbox;
-	border: 1px solid;
-	height: 209px;
-	width: 100%;
-	font-size: 200%;
-	word-wrap: break-word;
+	position: fixed;
+	bottom: 0;
+	border: 1 px solid black;
+	height: 200px;
+	width: 600px;
 	background: #ddd011;
 }
 .wrapper {
+	opacity: ;
+	position: fixed;
+	bottom: 0;
 	border: none;
 	color: #ddd011;
 	height: 35px;
 	width: 600px;
-	float: right;
 	background: #690815;
 }
-.btn {
+.photo {
 	border: none;
 	color: #ddd011;
-	width: left;
 	height: 35px;
-	float: right;
 	background: #e20c29;
 }
-.btn {
+.video {
 	border: none;
 	color: #ddd011;
-	width: left;
 	height: 35px;
-	float: right;
 	background: #e20c29;
 }
-.btn {
+.submit {
 	border: none;
 	color: #ddd011;
-	width: right;
 	height: 35px;
-	float: right;
 	background: #e20c29;
+}
+
+/*@media снизу под осноным селектором, иначе запрос нечитает браузер*/
+@media (max-width: 600px) {
+	
+	.container {
+		width: 200px;
+	}
+	
+	.search {
+		
+		width: 200px;
+	}
+	
+	.textarea {
+		
+		width: 200px;
+	}
+
+	.wrapper {
+		width: 200px;
+	}
 }

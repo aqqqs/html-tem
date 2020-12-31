@@ -1,35 +1,32 @@
-.body {
-	position: relative;
+#body {
 	background: #999999;
 }
 .container {
-	position: absolute;
 	color: rgb(18, 82, 82);
 	height: 400px;
 	width: 400px;
-	padding: 10px;
-	margin: 200px;
-	display: flexbox;
+	margin: 0 auto;
 	text-align: center;
 	background: #ddd011;
 }
-
-@media (max-width: 700px){
-	.background {
-		background-color: tomato;
-	}
-}
-.field {
-	border-bottom: 1px solid black;
-	font-size: 100%;
+.button-inner {
 	height: 40px;
 	width: 200px;
 	padding: 5px;
+	font-size: 100%;
 	text-align: center;
 	background: #96925e;
+	border-bottom: 1px solid black;
 }
-.but {
+.button-outer {
 	margin: 5px;
 	color: honeydew;
 	background: green;
+}
+@media (max-width: 1000px){
+	.container {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+	}
 }
