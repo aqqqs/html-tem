@@ -15,3 +15,13 @@ indent-rainbow
 prettier
 emmet
 javascript and typescript
+
+alt + ctrl + shift + стрелка (вверх, вниз)
+
+cd.. - вернуться назад
+cd\ - спуститься вниз
+cd C:\<folder name>\<folder name2> - точный адресат перехода
+
+npm install 
+npm uninstall 
+npm start - запуск проекта
